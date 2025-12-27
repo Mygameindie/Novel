@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML Visual Novel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game">
+    <img id="bg">
+    <img id="char">
+
+    <div id="ui">
+        <div id="controls">
+            <button id="saveBtn" type="button">Save</button>
+            <button id="loadBtn" type="button">Load</button>
+            <span id="saveStatus" aria-live="polite"></span>
+        </div>
+
+        <div id="text" title="Tap/click to skip typing"></div>
+        <div id="choices"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
